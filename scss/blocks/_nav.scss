@@ -1,0 +1,27 @@
+.nav {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    gap: 20px;
+    
+}
+
+.nav__logo{
+    align-self: center;
+}
+
+.nav__btn{
+    display: none;
+    @include tablet(){
+        display: block;
+    }
+    scale: 1;
+    transition: scale 0.2s ease-in;
+
+    &:hover{
+        scale: 1.1;
+
+    }
+
+}
+
+

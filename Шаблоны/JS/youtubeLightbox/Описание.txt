@@ -1,0 +1,15 @@
+Источник: https://www.youtube.com/watch?v=-YAzSex8zIo
+
+Для лайтбокса создается разметка в html 
+а также стилистика в css (см файл)
+
+ <!-- YouTube LightBox -->
+     <div id="youtubelightbox" class="youtubelightbox">
+        <div class="youtubelightbox__centeredchild">
+            <div class="youtubelightbox__videowrapper">
+                <div id="youtubelightboxPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+

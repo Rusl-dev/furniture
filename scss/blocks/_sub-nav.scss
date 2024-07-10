@@ -1,0 +1,12 @@
+.sub-nav__list{
+    display: grid;
+    gap: 10px;
+    font-size: 14px;
+}
+.sub-nav__item a {
+    &:hover{
+        color: var(--accent);
+    }
+}
+.sub-nav__link {
+}
